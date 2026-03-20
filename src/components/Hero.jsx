@@ -3,6 +3,7 @@ import { ArrowDown, Download, Github, Linkedin } from 'lucide-react'
 import { personalInfo } from '../data/portfolioData'
 import ParticleBackground from './ParticleBackground'
 import Typewriter from './Typewriter'
+import profilePic from '../assets/profile.jpg'
 
 const containerVariants = {
   hidden: {},
@@ -285,16 +286,16 @@ export default function Hero({ onCopied }) {
 
             <div className="aspect-square w-full overflow-hidden rounded-2xl">
               <img
-                src="/src/assets/profile.jpg"
-                alt="Tanmay Raj"
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  objectPosition: 'center',
-                  borderRadius: '16px',
-                  display: 'block',
-                }}
+                      src={profilePic}
+                      alt="Tanmay Raj"
+                      style={{
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover',
+                        objectPosition: 'center top',
+                        borderRadius: '16px',
+                        display: 'block',
+                      }}
               />
             </div>
 
