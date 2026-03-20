@@ -286,16 +286,18 @@ export default function Hero({ onCopied }) {
 
             <div className="aspect-square w-full overflow-hidden rounded-2xl">
               <img
-                      src={profilePic}
-                      alt="Tanmay Raj"
-                      style={{
-                        width: '100%',
-                        height: '100%',
-                        objectFit: 'cover',
-                        objectPosition: 'center top',
-                        borderRadius: '16px',
-                        display: 'block',
-                      }}
+                src={profilePic}
+                alt="Tanmay Raj"
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  objectPosition: '50% 10%',
+                  borderRadius: '16px',
+                  display: 'block',
+                  transform: 'scale(1.05)',
+                  transformOrigin: 'top center',
+                }}
               />
             </div>
 
