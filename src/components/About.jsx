@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { personalInfo, stats, interests } from '../data/portfolioData'
+import profilePic from '../assets/profile.jpg'
 
 export default function About() {
   return (
@@ -64,17 +65,18 @@ export default function About() {
                 boxShadow: 'inset 0 0 30px rgba(0,0,0,0.5)',
                 overflow: 'hidden',
               }}>
-                <img
-                  src={personalInfo.photo}
-                  alt={personalInfo.name}
-                  style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    borderRadius: '50%',
-                    display: 'block',
-                  }}
-                />
+            <img
+              src={profilePic}
+              alt="Tanmay Raj"
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                objectPosition: '50% 10%',
+                borderRadius: '50%',
+                display: 'block',
+              }}
+            />
               </div>
             </div>
 

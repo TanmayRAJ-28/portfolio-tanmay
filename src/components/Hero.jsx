@@ -292,7 +292,7 @@ export default function Hero({ onCopied }) {
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
-                  objectPosition: '50% 10%',
+                  objectPosition: '50% 0%',
                   borderRadius: '16px',
                   display: 'block',
                   transform: 'scale(1.05)',
