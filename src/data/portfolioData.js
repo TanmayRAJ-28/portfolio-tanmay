@@ -6,7 +6,7 @@ export const personalInfo = {
   bio: "I'm a 3rd-year B.Tech Information Technology student at KIIT University, Bhubaneswar, passionate about building intelligent systems and data-driven solutions. I love turning complex problems into clean, working code — from computer vision to machine learning pipelines.",
   bio2: "When I'm not coding, I'm exploring the latest in AI/ML, contributing to tech events, or diving deep into data to uncover patterns that tell a story. I'm currently open to internships, collaborations, and exciting opportunities.",
   email: "rajtanmay209@gmail.com",
-  phone: "+91 7482870393",
+  
   location: "Bhubaneswar, Odisha, India",
   linkedin: "https://www.linkedin.com/in/tanmay-raj-0b2459331",
   github: "https://github.com/TanmayRAJ-28",
