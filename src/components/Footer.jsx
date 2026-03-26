@@ -175,7 +175,7 @@ export default function Footer() {
               icon: Phone,
               label: 'PHONE',
               value: personalInfo.phone,
-              href: `tel:${personalInfo.phone}`,
+              href: `tel:${personalInf.phone}`,
               copy: true,
             },
             {
