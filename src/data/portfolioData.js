@@ -99,5 +99,5 @@ export const socialLinks = {
   github:   "https://github.com/TanmayRAJ-28",
   linkedin: "https://www.linkedin.com/in/tanmay-raj-0b2459331",
   email:    "rajtanmay209@gmail.com",
-  phone:    "+91 7482870393",
+ 
 };
